@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DCDD8042917D03AA653782B /* NemuriYogaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAED0ED73F428E378AF883 /* NemuriYogaApp.swift */; };
+		446758A00F52E9AF05B5C53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004E6509FD3999F8297AC5EE /* Assets.xcassets */; };
+		8E9D6030631376990F4A2A71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257E4F7FEC9A045EE0389972 /* ContentView.swift */; };
+		AC0AE21E02EB1130F206AB96 /* guide.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 37E9031524D20DC2F2E0D1F4 /* guide.m4a */; };
+		BE608745B6A3E707966216E4 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919FE55414444CF05AD68175 /* AudioManager.swift */; };
+		DB323B49E3A327F6B3F431B1 /* bgm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 64C245C33E844ADA37927F83 /* bgm.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004E6509FD3999F8297AC5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		257E4F7FEC9A045EE0389972 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37E9031524D20DC2F2E0D1F4 /* guide.m4a */ = {isa = PBXFileReference; path = guide.m4a; sourceTree = "<group>"; };
+		64C245C33E844ADA37927F83 /* bgm.m4a */ = {isa = PBXFileReference; path = bgm.m4a; sourceTree = "<group>"; };
+		6A425ED99E252FC74F89C5AF /* NemuriYoga.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NemuriYoga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EA854D4F2E87927A0C62A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		919FE55414444CF05AD68175 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		95DAED0ED73F428E378AF883 /* NemuriYogaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NemuriYogaApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		367B74463AB1661D6763B553 = {
+			isa = PBXGroup;
+			children = (
+				725325DC06F0193D5B2C2214 /* NemuriYoga */,
+				98C6672594B19313B9F32117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		419E464CDE6E76D4F8EF6949 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64C245C33E844ADA37927F83 /* bgm.m4a */,
+				37E9031524D20DC2F2E0D1F4 /* guide.m4a */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		725325DC06F0193D5B2C2214 /* NemuriYoga */ = {
+			isa = PBXGroup;
+			children = (
+				004E6509FD3999F8297AC5EE /* Assets.xcassets */,
+				919FE55414444CF05AD68175 /* AudioManager.swift */,
+				257E4F7FEC9A045EE0389972 /* ContentView.swift */,
+				89EA854D4F2E87927A0C62A3 /* Info.plist */,
+				95DAED0ED73F428E378AF883 /* NemuriYogaApp.swift */,
+				419E464CDE6E76D4F8EF6949 /* Resources */,
+			);
+			path = NemuriYoga;
+			sourceTree = "<group>";
+		};
+		98C6672594B19313B9F32117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A425ED99E252FC74F89C5AF /* NemuriYoga.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9FE448E23856C6FE77C89AB /* NemuriYoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AAE92B0AD4AAD253366F59 /* Build configuration list for PBXNativeTarget "NemuriYoga" */;
+			buildPhases = (
+				B88AAF4E33145F3B152E4F68 /* Sources */,
+				63E9D50547197E5DF9F4CD50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NemuriYoga;
+			packageProductDependencies = (
+			);
+			productName = NemuriYoga;
+			productReference = 6A425ED99E252FC74F89C5AF /* NemuriYoga.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6A74C19C56AA745615548E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C9FE448E23856C6FE77C89AB = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD46C6E15FD9825D8E9044F0 /* Build configuration list for PBXProject "NemuriYoga" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 367B74463AB1661D6763B553;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 98C6672594B19313B9F32117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9FE448E23856C6FE77C89AB /* NemuriYoga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E9D50547197E5DF9F4CD50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446758A00F52E9AF05B5C53B /* Assets.xcassets in Resources */,
+				DB323B49E3A327F6B3F431B1 /* bgm.m4a in Resources */,
+				AC0AE21E02EB1130F206AB96 /* guide.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B88AAF4E33145F3B152E4F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE608745B6A3E707966216E4 /* AudioManager.swift in Sources */,
+				8E9D6030631376990F4A2A71 /* ContentView.swift in Sources */,
+				3DCDD8042917D03AA653782B /* NemuriYogaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		08ACAB3AC798EA5D3C44682E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2D7667EC189F40D81D48FF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCFECCD7906980A504E8FDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = NemuriYoga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sasai.NemuriYoga;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EC371787900E81FBE79DB152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = NemuriYoga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sasai.NemuriYoga;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85AAE92B0AD4AAD253366F59 /* Build configuration list for PBXNativeTarget "NemuriYoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC371787900E81FBE79DB152 /* Debug */,
+				DCFECCD7906980A504E8FDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD46C6E15FD9825D8E9044F0 /* Build configuration list for PBXProject "NemuriYoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7667EC189F40D81D48FF22 /* Debug */,
+				08ACAB3AC798EA5D3C44682E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6A74C19C56AA745615548E6 /* Project object */;
+}
