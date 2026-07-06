@@ -1,5 +1,5 @@
 #!/bin/sh
-# guide_script.txt から NemuriYoga/Resources/guide.m4a を再生成する。
+# guide_script.txt から SleepYoga/Resources/guide.m4a を再生成する。
 #
 # 注意:
 # - say は長尺(10分級)のファイル書き出しに失敗することがあるため、
@@ -32,7 +32,7 @@ for i, name in enumerate([".part1.wav", ".part2.wav"]):
 out.close()
 EOF
 
-afconvert -f m4af -d aac -q 127 .guide_full.wav ../NemuriYoga/Resources/guide.m4a
+afconvert -f m4af -d aac -q 127 .guide_full.wav ../SleepYoga/Resources/guide.m4a
 rm -f .part1.txt .part2.txt .part1.wav .part2.wav .guide_full.wav
-afinfo ../NemuriYoga/Resources/guide.m4a | grep duration
-echo "done: NemuriYoga/Resources/guide.m4a"
+afinfo ../SleepYoga/Resources/guide.m4a | grep duration
+echo "done: SleepYoga/Resources/guide.m4a"

@@ -17,7 +17,7 @@ final class AudioManager: NSObject, ObservableObject {
     }
 
     static let sessionTitle = "筋弛緩リラクセーション"
-    static let appName = "ねむりヨガ"
+    static let appName = "スリープヨガ"
 
     @Published private(set) var state: PlaybackState = .idle
     @Published private(set) var currentTime: TimeInterval = 0

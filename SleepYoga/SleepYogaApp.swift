@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct NemuriYogaApp: App {
+struct SleepYogaApp: App {
     @StateObject private var audio = AudioManager()
 
     var body: some Scene {

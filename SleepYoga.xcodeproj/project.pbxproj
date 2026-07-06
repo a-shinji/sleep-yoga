@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066542E0A5EFF55C8421D37E /* bgm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C0ABD9899A4FE78C0278F689 /* bgm.m4a */; };
+		2AC22F71EC1701C49309D1D3 /* guide.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6A94120B7C521CBB7DF0DB63 /* guide.m4a */; };
+		5246CA06729C3B681B88DDE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE189A468EA1B3CBCA60424A /* ContentView.swift */; };
+		5A561018CC8BC45B338EACE0 /* SleepYogaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790FE17FBC69DB308B56E7C /* SleepYogaApp.swift */; };
+		694FF550BFBF6837D7581BF1 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68057C3C753E4ADA1BEEA99D /* AudioManager.swift */; };
+		6D55F6E08241521666F52768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E825C6B33D1BA26D9A5EFA36 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68057C3C753E4ADA1BEEA99D /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		6A94120B7C521CBB7DF0DB63 /* guide.m4a */ = {isa = PBXFileReference; path = guide.m4a; sourceTree = "<group>"; };
+		C0ABD9899A4FE78C0278F689 /* bgm.m4a */ = {isa = PBXFileReference; path = bgm.m4a; sourceTree = "<group>"; };
+		DE189A468EA1B3CBCA60424A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4BC8E42BA7683C9FA41E0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E790FE17FBC69DB308B56E7C /* SleepYogaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepYogaApp.swift; sourceTree = "<group>"; };
+		E825C6B33D1BA26D9A5EFA36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04ACB3C24CFE275F9CC4BB6 /* SleepYoga.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SleepYoga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		11403EA3FA06F2923396FAED = {
+			isa = PBXGroup;
+			children = (
+				AEC2A2B4B75288EFF1D4980E /* SleepYoga */,
+				E7A5A05BF597A9275B88E104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7ACB4086D361F1DC719A10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0ABD9899A4FE78C0278F689 /* bgm.m4a */,
+				6A94120B7C521CBB7DF0DB63 /* guide.m4a */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AEC2A2B4B75288EFF1D4980E /* SleepYoga */ = {
+			isa = PBXGroup;
+			children = (
+				E825C6B33D1BA26D9A5EFA36 /* Assets.xcassets */,
+				68057C3C753E4ADA1BEEA99D /* AudioManager.swift */,
+				DE189A468EA1B3CBCA60424A /* ContentView.swift */,
+				E4BC8E42BA7683C9FA41E0FE /* Info.plist */,
+				E790FE17FBC69DB308B56E7C /* SleepYogaApp.swift */,
+				7F7ACB4086D361F1DC719A10 /* Resources */,
+			);
+			path = SleepYoga;
+			sourceTree = "<group>";
+		};
+		E7A5A05BF597A9275B88E104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04ACB3C24CFE275F9CC4BB6 /* SleepYoga.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B69DEE75D97126635BE71F /* SleepYoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF5EB0EEFDC0F6D7DC20C16 /* Build configuration list for PBXNativeTarget "SleepYoga" */;
+			buildPhases = (
+				FEF301A89A07B9D48BBEA3AE /* Sources */,
+				BCCBC8308369F8EE7A905731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepYoga;
+			packageProductDependencies = (
+			);
+			productName = SleepYoga;
+			productReference = F04ACB3C24CFE275F9CC4BB6 /* SleepYoga.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6344DCFFF8C86FFF47D9B838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E7B69DEE75D97126635BE71F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E1C217F23BC81F29BB807A7 /* Build configuration list for PBXProject "SleepYoga" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 11403EA3FA06F2923396FAED;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7A5A05BF597A9275B88E104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B69DEE75D97126635BE71F /* SleepYoga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCBC8308369F8EE7A905731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D55F6E08241521666F52768 /* Assets.xcassets in Resources */,
+				066542E0A5EFF55C8421D37E /* bgm.m4a in Resources */,
+				2AC22F71EC1701C49309D1D3 /* guide.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF301A89A07B9D48BBEA3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694FF550BFBF6837D7581BF1 /* AudioManager.swift in Sources */,
+				5246CA06729C3B681B88DDE3 /* ContentView.swift in Sources */,
+				5A561018CC8BC45B338EACE0 /* SleepYogaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07A4744B36E882BA27854C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SleepYoga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sasai.SleepYoga;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1CF66BDA8AE470FB2486BB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1B3DD025DB123AFBA841BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SleepYoga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sasai.SleepYoga;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CFE6A81511F2DB59E612B46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF5EB0EEFDC0F6D7DC20C16 /* Build configuration list for PBXNativeTarget "SleepYoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B3DD025DB123AFBA841BCB /* Debug */,
+				07A4744B36E882BA27854C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E1C217F23BC81F29BB807A7 /* Build configuration list for PBXProject "SleepYoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF66BDA8AE470FB2486BB06 /* Debug */,
+				CFE6A81511F2DB59E612B46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6344DCFFF8C86FFF47D9B838 /* Project object */;
+}
